@@ -6,13 +6,13 @@
 #    By: ajosse <ajosse@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/01/22 23:27:28 by ajosse            #+#    #+#              #
-#    Updated: 2025/02/07 15:13:16 by ajosse           ###   ########.fr        #
+#    Updated: 2025/02/08 20:19:53 by ajosse           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = prog_name 
 
-FILES = file1.cpp file2.cpp ...
+FILES = main.cpp file1.cpp ...
 OBJS = $(FILES:%.cpp=%.o)
 
 FILES_path = $(FILES:%=srcs/%)

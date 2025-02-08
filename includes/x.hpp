@@ -6,7 +6,7 @@
 /*   By: ajosse <ajosse@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/23 01:02:36 by ajosse            #+#    #+#             */
-/*   Updated: 2025/02/07 15:07:39 by ajosse           ###   ########.fr       */
+/*   Updated: 2025/02/08 20:19:35 by ajosse           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,10 @@ class X
 		X( const X& other );
 
 		//! DESTRUCTOR
-		virtual ~X();
+		~X();
 
 		/// SUPPORT "=" OPERATOR
-		virtual X& operator=( const X& other );
+		X& operator=( const X& other );
 
 		/// GETTERS
 
